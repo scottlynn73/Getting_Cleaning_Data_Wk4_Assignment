@@ -1,8 +1,4 @@
-# set local working directory
-setwd("/Users/Scott/Desktop/R_working_directory/Coursera3_GettingCleaningData/data/UCI HAR Dataset")
-getwd()
-
-# load packages
+# load useful packages
 library(reshape2)
 library(plyr)
 library(dplyr)
@@ -15,7 +11,6 @@ activities <- read.table("./activity_labels.txt", col.names = c("activity_code",
 features <- read.table("./features.txt")
 feature_names <- features[,2]
 
-
 ##### deal with the test data ######
 # read in test data and use feature names for the column names
 test_data <- read.table("./test/X_test.txt", col.names = feature_names)
@@ -25,7 +20,6 @@ test_subjects <- read.table("./test/subject_test.txt", col.names = "subject")
 test_activity <- read.table("./test/y_test.txt", col.names= "activity_code")
 # merge the test data
 test_df <- cbind(test_subjects, test_activity, test_data)
-
 
 ##### deal with the training data ######
 # read in training data and use feature names for the column names
