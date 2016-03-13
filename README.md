@@ -1,4 +1,7 @@
-# Getting_Cleaning_Data_Wk4_Assignment by Dr Scott Hamilton
+# Getting_Cleaning_Data_Wk4_Assignment
+
+R script and associated files/descriptions written by Scott Hamilton, 13th March 2016.
+
 This script is designed to provide a tidy data set as required in the assignment at the end of Week 4. The main script is named run_analysis.R and performs the following steps
 
 1) Read in all required text files i.e. activity_labels.txt, features.txt, X_test.txt, Y_test.txt, X_train.txt, and Y_train.txt
