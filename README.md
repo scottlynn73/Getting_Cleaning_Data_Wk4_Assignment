@@ -1,6 +1,4 @@
-# Getting_Cleaning_Data_Wk4_Assignment
-Repository for the Getting and Cleaning Data class project at the end of Week 4
-
+# Getting_Cleaning_Data_Wk4_Assignment by Dr Scott Hamilton
 This script is designed to provide a tidy data set as required in the assignment at the end of Week 4. The main script is named run_analysis.R and performs the following steps
 
 1) Read in all required text files i.e. activity_labels.txt, features.txt, X_test.txt, Y_test.txt, X_train.txt, and Y_train.txt
@@ -22,3 +20,5 @@ This script is designed to provide a tidy data set as required in the assignment
 9) Take the mean value of all included features ordered by the activity and subject. 
 
 10) Write a tidy data table as a text file- tidy_data.txt
+
+11) A description of the contents of tidy_data.txt is provided in the Codebook.md file
